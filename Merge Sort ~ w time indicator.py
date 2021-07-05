@@ -29,7 +29,7 @@ def merge(left, right):
 	return result
 
 someList = []
-for i in range(100):
+for i in range(1000):
 	someList.append(random.randint(1,100)+i)
 print(someList)
 start = time.time()
