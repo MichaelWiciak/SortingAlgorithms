@@ -1,4 +1,4 @@
-import time
+import time, random
 
 def merge_sort(m):
 	if len(m) <= 1:
@@ -30,7 +30,7 @@ def merge(left, right):
 
 someList = []
 for i in range(100):
-	someList.append(str(i))
+	someList.append(random.randint(1,100)+i)
 print(someList)
 start = time.time()
 someList = merge_sort(someList)
